@@ -1,6 +1,6 @@
-# xanadude
+# xanadu-2
 
-xanadude is a modernized version of the classic Project Xanadu, updated to run on a variety of systems
+xanadu-2 is a modernized revision of Ted Nelson's classic Project Xanadu
 
 ## Inspiration
 
@@ -10,37 +10,15 @@ Project Xanadu introduced concepts such as visible connections (links) between d
 
 For more information about Project Xanadu, visit [Xanadu's official website](https://xanadu.com/xUniverse-D6).
 
-## Installation
 
-1. Create and activate a virtual environment:
+## Running xanadu-2
 
-   ```bash
-   python -m venv xanadude_env
-   source xanadude_env/bin/activate  # On macOS/Linux: source xanadude_env/bin/activate
+Run the main application:
+
+   ```python
+   python main_app.py
    ```
 
-2. Install dependencies:
-
-   ```bash
-   pip install PyQt5 pathlib
-   ```
-
-## Running xanadude
-
-1. Run the main application:
-
-   ```bash
-   python main.py
-   ```
-
-2. Check the logs in `logs/xanadude.log` for detailed information and debugging.
-
-## Usage
-
-- Navigate through the tabs to explore different functionalities:
-  - **Home Tab:** Displays a welcome message and shows the result of input events.
-  - **Input Tab:** Allows triggering of input events and logs the actions.
-  - **Settings Tab:** Provides basic settings for the application.
 
 ## Contributing
 
